@@ -577,3 +577,12 @@ a{
     color: var(--main-color);
 }
 /*! Footer End */
+
+/*! Responsive Start */
+    @media (max-width: 991px){
+        body {
+            display: none !important;
+        }
+    }
+    
+/*! Responsive End */
