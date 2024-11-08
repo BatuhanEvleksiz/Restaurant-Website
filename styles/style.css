@@ -152,11 +152,16 @@ a{
     border-bottom: 0.1rem solid transparent;
 
 }
-.header .navbar .active,
+.header .navbar.active,
 .header .navbar a:hover{
     border-color: var(--main-color);
     padding-bottom: 0.5rem;
 }
+
+.header .navbar.active{
+    right: 3rem;
+}
+
 
 .header .buttons button{
     cursor: pointer;
@@ -671,11 +676,11 @@ a{
 
 /*! Responsive Start */
     @media (max-width: 991px){
-        html {
+        html{
             font-size: 55%;
         }
 
-        .header {
+        .header{
             padding: 1.5rem 2rem;
         }
 
@@ -683,7 +688,7 @@ a{
             height: 7rem;
         }
 
-        section {
+        section{
             padding: 2rem;
         }
 
@@ -693,7 +698,7 @@ a{
     }
     
     @media (max-width: 768px){
-        #menu-btn{
+        .header #menu-btn{
             display: inline-block;
         }
 
@@ -717,5 +722,12 @@ a{
             padding: 0.5rem;
             font-size: 2rem;
         }
+    }
+
+    @media (max-width: 576px){
+        html{
+            font-size: 50%;
+        }
+
     }
 /*! Responsive End */
