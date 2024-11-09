@@ -540,6 +540,7 @@ a{
     color: #fff;
     text-transform: none;
     background-color: transparent;
+    text-transform: capitalize;
 }
 
 .contact .row form .btn{
