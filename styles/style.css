@@ -168,6 +168,12 @@ a{
     font-size: 2.5rem;
     margin-left: 2rem;
     background-color: transparent;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.header .buttons button:hover {
+    color: #007bff;
+    transform: scale(1.1);
 }
 
 .header .cart-items-container{
@@ -656,6 +662,7 @@ a{
     color: #fff;
     font-size: 2rem;
     border: 0.3px solid #fff;
+    border-radius: 10px;
 }
 
 .footer .links a:hover {
